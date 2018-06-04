@@ -1,0 +1,1 @@
+# adding item to the list of array and checking if the value already exists .
