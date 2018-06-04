@@ -29,7 +29,12 @@ public class Main {
             movieTitle = input.nextLine();
 
         }
-        System.out.println("Thank you for using the system");
+        System.out.println("The movies your entered are: \n:::::::::::::::::::" );
+        for(int i =0;i<movieList.size();i++)
+        {
+            System.out.println(movieList.get(i));
+        }
+        System.out.println(":::::::::::::::::::::\nThank you for using the system");
     }
 }
 
